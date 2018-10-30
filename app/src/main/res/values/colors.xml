@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_grey">#424242</color>
+    <color name="fondo">#0078d7</color>
+    <color name="medium_grey">#9E9E9E</color>
+    <color name="button_grey">#757575</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#161139</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorDivide">#747171</color>
+    <color name="colorTitulos">#303F9F</color>
+    <color name="nombre">#689F38</color>
+    <color name="fondo_dark">#000000</color>
+    <color name="btns">#304ffe</color>
+    <color name="celdas">#f0f4f3</color>
+    <color name="alerta">#d32f2f</color>
+
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="accent_">#00838f</color>
+
+    <color name="accent">#FFFFFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="not">#ff3d00</color>
+
+
+
+    <color name="Not">#6680cbc4</color>
+    <color name="Not2">#6680cbc4</color>
+    <color name="reprobados">#FFE61316</color>
+    <color name="aprobados">#175527</color>
+
+    <color name="head">#ffffff</color>
+    <color name="headP">#00265D</color>
+
+    <color name="otro">#0078d7</color>
+
+
+
+</resources>
+
+

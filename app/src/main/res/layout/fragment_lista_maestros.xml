@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:padding="15dp"
+    >
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Nombre del Docente"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="@dimen/letras_16" />
+
+    <TextView
+        android:id="@+id/divisionAcademica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+
+        android:textColor="@color/medium_grey"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text="División Academica"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="@dimen/letras_14" />
+
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="usuario"
+        android:textColor="#000"
+        android:textSize="@dimen/letras_16"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/M"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_marginLeft="@dimen/md_keylines"
+        android:textColor="@color/medium_grey"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text=""
+        android:visibility="gone"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="@dimen/list_body" />
+</RelativeLayout>

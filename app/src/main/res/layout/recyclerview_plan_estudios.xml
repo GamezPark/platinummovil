@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Plan de Estudios"
+                    android:id="@+id/textView"
+                    android:textSize="@dimen/titulo_25"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@color/accent_"
+                    android:layout_gravity="center_horizontal"
+                    android:elevation="5dp"/>
+
+                <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/my_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingBottom="@dimen/md_keylines"
+                    android:scrollbars="vertical"
+                    android:fitsSystemWindows="true"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
