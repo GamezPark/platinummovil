@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "254367269014",
+    "firebase_url": "https://platinummovil.firebaseio.com",
+    "project_id": "platinummovil",
+    "storage_bucket": "platinummovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254367269014:android:c49a7bf3f3c50435",
+        "android_client_info": {
+          "package_name": "upch.movil.platinum.platinummovilupch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254367269014-mdutqj0q4osic6g2p63n20ce3ksobos9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3a6_qIT-s38MOJrF1piHc6017QPQQfi4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
